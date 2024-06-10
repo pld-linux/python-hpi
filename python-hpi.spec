@@ -13,6 +13,7 @@ URL:		https://www.audioscience.com/internet/download/linux_drivers.htm
 BuildRequires:	python-modules >= 1:2.7
 BuildRequires:	python-setuptools
 Requires:	hpklinux-libs >= %{version}
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
